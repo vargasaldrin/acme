@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15%;
+  margin-top: 25px;
+  border-bottom: solid 15px #001254;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style-type: none;
+  width: 770px;
+  bottom: 0px;
+  padding: 0px;
+  margin-bottom: 27px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.divider {
+  height: 70px;
+  margin-top: 37px;
+}
+
+@media (max-width: 450px) {
+  .container {
+    display: none;
+  }
+}

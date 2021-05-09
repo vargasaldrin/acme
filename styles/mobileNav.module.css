@@ -1,0 +1,65 @@
+.container {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+  }
+
+  .head {
+    height: 50px;
+    text-align: center;
+    position: relative;
+    background-color: #eaecee;
+  }
+
+  .logo {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .menu {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .menu img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10%;
+    margin: 0px;
+    background-color: #ffffff;
+  }
+
+  .navigation li {
+    width: 100%;
+    text-align: center;
+    background-color: #eaecee;
+    padding: 10px 0px;
+    margin: 5px 0px;
+  }
+
+  .shade {
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    width: 100%;
+    height: 100vh;
+  }
+}
